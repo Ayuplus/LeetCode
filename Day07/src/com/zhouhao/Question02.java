@@ -11,7 +11,6 @@ public class Question02 {
             ListNode next = temp.next;
             /**
              * 第一次temp.next值为null,之后每次的值都是上次的temp
-             *
              */
             temp.next = newHead;
             newHead = temp;

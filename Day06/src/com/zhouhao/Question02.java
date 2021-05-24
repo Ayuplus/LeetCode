@@ -18,7 +18,7 @@ public class Question02 {
                 chars[size++] = '%';
                 chars[size++] = '2';
                 chars[size++] = '0';
-            } else if (c != ' '){
+            } else {
                 chars[size++] = c;
             }
         }
